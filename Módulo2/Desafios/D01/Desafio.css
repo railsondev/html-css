@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(117, 233, 183);
+  margin: 0px;
+}
+
+header{
+  background-image: linear-gradient(to bottom, rgb(31, 219, 19), rgb(44, 143, 37));
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+.cabecalho{
+    color: white;
+    margin: 11px;
+    text-align: center;
+}
+h1{
+  margin: 6px;
+  padding: 1px;
+}
+h2{
+  margin: 11px;
+  background-image: linear-gradient(to right, rgba(32, 219, 19, 0.226), rgba(44, 143, 37, 0.041));
+}
+nav{
+  background-color: rgb(92, 148, 87);
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+a{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 3px;
+  padding: 1px;
+}
+nav > a:hover{
+  background-color: rgba(186, 228, 182, 0.685);
+}
+
+main{
+  background-color: white;
+  color: rgb(92, 148, 87);
+  margin: 12px 100px 0px 100px;
+}
+p{
+  color: black;
+  text-align: justify;
+  padding: 10px;
+  margin: 0px;
+}
+.info{
+  color: lightslategray;
+}
+.video{
+  text-align: center;
+  height: 315px;
+  border: 0px;
+  padding: 0px;
+  margin: 30px;
+}
+section{
+  background-color: rgb(154, 238, 201);
+  margin: 30px;
+  border: 0px;
+  padding: 0px;
+}
+h3{
+  background-color: rgb(127, 185, 158);
+  color: white;
+  height: 29px;
+  padding: 15px;
+}
+ul{
+  color: black;
+}
+b{
+  color: rgba(44, 143, 37, 0.822);
+}
+
+.fim{
+  padding: 10px;
+}
+footer{
+  background-color: rgba(11, 85, 6, 0.616);
+  text-align: center;
+}
+h4{
+  color: white;
+  margin: 0px;
+  font-size: small;
+}

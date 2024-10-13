@@ -1,0 +1,642 @@
+Módulo 1
+
+  UTF-8? 
+    Código multibyte
+
+  O computador somente entende bytes, que se movimentam em ondas_quadradas.
+
+  Representação dos dados
+
+    1024 bytes = 1 KB
+    1024 KB    = 1 MB 
+    1024 MB    = 1 GB
+    1024 GB    = 1 TB
+    1024 TB    = 1 PB
+    1024 PB    = 1 EB
+    1024 EB    = 1 ZB
+    1024 ZB    = 1 YB
+    
+    IMPORTANTE:
+      MegaBytes -> Utilizado em armazenamento
+      Megabits  -> Utilizado em transmissão
+
+  O modem tem a função de converter de onda_quadrada para cenoidal e de cenoidal para onda_quadrada
+
+  Dominio e hospedagem
+    
+    Dominio
+      DNS 
+        Domain Name System
+
+        Nome único
+        Pago anualmente
+        Vários TLD's 
+          
+          Top Level Domain's 
+          
+          GTLD
+            Generic Top Level Domain's
+
+            .com -> Comercial
+            .edu -> Educacionais
+            .gov -> Governamental
+            .store -> Lojas
+            .io    -> 
+
+          CCTLD's
+            Country Code Top Level Domain's 
+
+            Código de pais
+
+            .br -> Brasil
+            .us -> EUA 
+            .uk -> Inglaterra
+            .ar -> Argentina
+            .tv -> Tuvalu
+
+        Sub-Dominio
+          Fica antes do dominio 
+          
+    Hospedagem 
+
+      Espaço para armazenar os arquivos
+      Pago mensalmente
+
+      Posto na conta
+        Espaço, Memória e Recursos
+
+    URL
+
+      Uniform Resource Locator
+        Localizador de recurso único
+        Serve para apontar para um local especifico
+
+  Diferença entre HTML, CSS e JavaScript
+
+    Como funciona a HTML e as CSS's
+
+      HTML
+
+        HyperText -> Clica e desvia para outro local
+        Markup    -> Marcação
+        Language  -> Linguagem
+
+        Focada no 'conteúdo' que pode ser:
+          Textos
+          Imagens
+          Videos 
+          Tabelas
+
+        Conteúdo em HTML
+
+          <h1> Exemplo de título </h1>
+          <p> Exemplo de parágrafo </p> 
+          <img src="foto.png" alt="Exemplo de foto">
+            O 'src e o alt' são os 'parâmetros' da tag
+
+          Obs:
+            Deve-se abrir e fechar uma tag
+
+            Não precisa
+              <hr>
+        
+        Obs:
+          Para mostrar a tag utilize &lt;tag&gt;
+
+          Para colocar comentários utilize 
+
+            <!---->
+
+        Estrutura HTML básica
+        
+          <!DOCTYPE html>
+          <html lang="pt-br">
+            <head>
+              <meta charset="UTF-8"> -> Dá capacidade ao uso de acentuações
+              <meta name="viewport" content="width=device-width,initial-scale=1.0"> -> O site ocupa a parte branca e em 100%
+              <title> Document </title>
+            </head>
+            <body>
+              <h1> Óla Mundo! </h1>
+            </body>
+          </html>
+
+      CSS 
+
+        Cascading -> Cascata
+        Style     -> Estilo
+        Sheets    -> Folhas
+
+        Focada em 'design' que é:
+          Cor 
+          Posição
+          Tamanho
+          Texto por cima da imagem 
+
+        O que é feito:
+          Cores
+          Sombras
+          Tamanho
+          Posicionamento
+
+        Estilo em CSS
+
+          h1{
+            font-family:Arial;
+            font-size:20pt;
+            color:blue;
+          }
+
+          Obs:
+
+            No 'seletor', tem as 'declarações' e as declarações são separadas em 'propriedade' e 'valor'
+            Uma declaração sempre termina com ';'
+
+      JavaScript
+
+        Focado nas 'interações'
+
+        O que é feito:
+          Menus interativos
+          Animações
+          Popups
+          Validações
+
+  HTML
+
+    Parágrafos e quebras
+
+      Para que seja realizado a quebra de linha deve-se utilizar a tag <br> entre as palavras que devem ser separadas.
+
+    Simbolos e emojis
+
+      Para mostrar em hexa -> &#x + valor desejado da W3C + ;
+      Para mostrar em decimal -> &# + valor desejado da W3C + ;
+
+    Imagem e direito autoral
+
+    Formatos de imagem
+
+      Para a web utiliza-se:
+        jpeg 
+          Sua vantagem é a alta compactação 
+        png
+          Permite a transparência
+          Com melhor qualidade
+
+      Tamanho
+
+        1500 de largura aceitavel para o fundo
+        650 para uso no conteúdo
+        200 para uso em logo
+        
+
+      Resolução
+
+        De 50 a 72
+
+    tag img
+
+
+      Para carregar uma imagem utiliza-se a tag <img src="" alt="">
+      
+      Para carregar uma imagem de dentro uma pasta utiliza-se a mesma tag, porém deve-se colocar no parâmetro src="nome_da_pasta/nome_da_imagem.extensão"
+
+      Para carregar uma imagem externa deve-se, seguir os seguintes passos:
+        1 -> Procurar a imagem
+        2 -> Acessar a página da imagem
+        3 -> BD na imagem e clicar em copiar endereço da imagem 4 -> Abrir uma nova aba do navegador e colar o endereço copiado
+        5 -> Verifique a imagem
+        6 -> copiar o endereço do navegador e colar dentro do parâmetro 'src=""' 
+
+    Como mudar o favicon de um site?
+
+      Favicon
+
+        Favorite Icon
+
+        Para adicionar o favicon, comece por:
+          1 -> Deve ficar dentro do espaço 'head' acima do title
+          2 -> Digite 'link' e escolha a opção com favicon
+          3 -> Dentro do parâmetro href, use as teclas 'ctrl + espaço' e selecione o icone desejado
+
+    Hierárquia de titulos
+
+      Headings
+
+        Niveis de titulos
+
+          Começa pelo titulo principal e depois passa para o sub-titulo e para o sub do sub-titulo
+
+        h1 -> Titulo principal
+
+        Para gerar um parágrafo automático utiliza-se o 'loren'
+
+        h2 -> Sub-titulo
+        h3 a h6 -> Sub do sub-titulo
+
+    Formatação de texto 
+
+    Semântica
+
+          Tem mais valor o signifado do que a forma.
+          
+          A tag <u></u> que encontra-se 'obsoleta' não tem signifado somente forma
+          A tag <address></address> possui significado
+
+        Forma 
+
+          utiliza-se as 'CSS's'
+
+        Negrito e Itálico
+
+          Itálico
+
+            Para mudar para itálico, utiliza-se o CTRL + shift + p, selecione o wrap caso não esteja achando digite 'abb' e após isso somente digite a letra 'i'.
+
+          Ênfase
+
+        Marcar
+
+          Utiliza-se a tag mark.
+
+          Obs:
+          
+            Para alterar a cor especifica de uma marcação, usa-se o ' style="background-color='cor'" ' dentro da tag mark.
+
+            Para alterar no código inteiro, deve-se alterar incluir o estilo dentro da tag head, acima do title
+              style
+                mark {
+                  background-style="cor"
+                }
+        
+        Tag big
+        
+          Funciona mais está obsoleto, pois é uma 'forma'.
+
+    Citações e Código
+
+      Fonte monoespaçada
+
+        Para visualização de código
+        Utiliza-se a tag <code></code>
+
+      Para realizar uma citação, utiliza-se a tag <q></q> pois dá sentido para a palavra
+
+      Simples
+      
+        Permanece a mesma linha
+
+      Completa
+
+        Fica identada na horizontal para dentro.
+
+          Externa
+
+            Utiliza-se a tag <blockquote cite=""></blockquote>, para melhorar utiliza-se o parâmetro 'cite="link da localização da citação"', auxilia se a citação for de algo que possa ser vendavel.
+
+      Mostrar sem abrir somente passando o mouse
+
+        Faz surgir um Popup
+
+        Utiliza-se a tag <abbr title="'O que deve aparecer dentro do Popup'"></abbr>
+
+      Texto Invertido
+
+        Utiliza-se a tag <bdo dir="rtl"></bdo>
+
+    Listas
+
+      Ordenadas
+
+        Utiliza-se a tag <ol></ol> para criar a lista e a tag <li></li> para criar o item.
+
+        Obs:
+
+          A tag <li> fica opcional o fechamanto
+
+        Parâmetro
+        
+          Type= {
+            1 - Número
+            A - Letras maíusculas
+            a - Letras minusculas
+            I - Algarismo Romano maíusculo
+            i - Algarismo Romano minusculo
+          }
+
+          Start="inicio"
+
+          Construção <ol type="" Start=""></ol>
+
+      Não Ordenadas
+
+        A ordem não faz sentido
+
+        Parâmetro
+        
+          Type= {
+            disc - Totalmente preenchido (Padrão)
+            circle - Somente a borda preta
+            square - Forma quadrada
+          }
+
+      Desordenadas
+
+        Utiliza-se a tag <ul></ul>
+
+      Definição
+
+        Utiliza a tag <dl></dl>
+
+        Dentro dela utiliza-se a tag <dt></dt> para criação do termo e a <dd></dd> para criação da definição do termo.
+
+    Links
+
+      Externo
+
+        Aponta para outro site que não é nosso.
+        Utiliza-se a tag <a href="'URL do site'"></a>
+
+        IMPORTANTE
+
+          Para fazer com que o link não se sobreponha ao site de origem, deve-se utilizar os parâmetros target="_blank" e o rel="extenal".
+          Coloque o nome entre as tags inicio e fim 
+          Necessário colocar o link completo.
+
+      Internos
+
+        Realiza uma ligação a uma pasta ou página que está dentro do nosso próprio servidor.
+
+        IMPORTANTE
+
+          As páginas devem estar no mesmo local.
+          
+          Para criar um botão, basta utilizar a tag <a></a> apontando a página de destino.
+
+          Deve-se colocar o parâmetro rel="'prev'", na página seguinte, indicando a página anterior.
+          Deve-se colocar o parâmetro rel="'next'", na página de origem, indicando ao mecanismo do google o fluxo de trabalho do site.
+
+          Para criar um link a uma página que encontra-se dentro de uma pasta deve-se colar o caminho até a página ou utilizar o atalho 'CTRL + espaço' e selecionar a pasta desejada.
+          
+          IMPORTANTISSÍMO
+
+            Sempre quando se for realizar um link patrocinado, para algo que foi pago para estar ali, utilize o parâmetro rel="'nofollow'", impossibillitando que o algoritimo do google perpetue a busca para dentro do site do patrocinador.
+
+            Para que a próxima página abra na mesma aba utilize o parâmetro target="'_self'".
+
+      Externos ( Download )
+
+        Para acessar o arquivo que esteja em  outra pasta utilize o "CRTL + espaço" e sellecione a pasta desejada
+
+        Para realizar a inclusão dos arquivos que serão disponibilizados para Download, utilize a lista não-ordenada (ul), na tag (li) coloque os parâmetro:
+
+          href="localização do arquivo"
+          download="Nome para visualização.extensão do arquivo"
+          type="Necessário verificar no site https://www.iana.org/assignments/media-types/media-types.xhtml, o nome correto para referenciar ao tipo do arquivo"
+
+        IMPORTANTE
+
+          Caso o link seja vazio utilize o simbolo de #
+          Caso não utilize os parâmetros "download e type", o arquivo não será baixado sendo mostrado na própria tela do navegador.
+
+      Criação de botão
+
+        <a href="index.html">
+        <img src="voltar.png" alt="Voltar">
+        </a>
+
+    Imagem / Aúdio / Vídeo
+
+      Imagens Dinâmicas
+
+        Modelos
+          Smartphone
+
+            Tamanho
+            
+              300x300
+
+            Resolução
+
+              80x80
+
+          Tablet
+
+            Tamanho
+            
+              700x700
+
+            Resolução
+
+              80x80
+
+          Notebook
+
+            Tamanho
+            
+              1000x1000
+
+            Resolução
+
+              80x80
+
+        Tag picture
+
+          Dentro da tag deve-se utilizar a tag img, para informar a imagem principal
+          Para diminuir conforme o tamanho da tela utilize a tag source
+
+            Dentro da tag source utilize os parâmetros media=(""), srcset=("") e o type=("")
+              
+              Observação:
+
+                media{
+                  1050px - Tela grande
+                  750px  - Tela média
+                  350px  - Tela pequena
+                }
+
+                srcset{
+                  Indica a origem da imagem a ser utilizada (nome_da_pasta/nome_da_imagem.extensão)
+                }
+
+                type{
+                  image/extensão
+                }
+
+                As tags source devem ser na ordem, caso contrário não irá funcionar.
+              
+        Observação:
+
+          Sempre se preocupe com o bem-estar do cliente, pois, se o mesmo não gostar irá indicar ao algoritimo do google que o seu site não serve.
+          Influencia na experiência do seu usuário, FAZ TODA A DIFERENÇA.
+          
+      Aúdios em sites
+
+        utilize a tag <audio>
+
+          Para que apareça o controle do aúdio, utilize o parâmetro 'control'
+          Para que toque automaticamente utilize o parâmetro 'autoplay'
+
+          Outra forma de tocar o aúdio
+
+            Utilize os parâmetros:
+
+              preload{
+                auto = Tocar automaticamente mesmo que o arquivo seja grande
+                metadata = Somente carrega as informações, para tocar deve-se dar o 'play'
+                none = Não faz nada 
+              }
+              control{
+                Para aparecer o aúdio
+              }
+              loop{
+                Tocar infinitamente
+              }
+
+        Observação
+        
+          Todas as referências utilizadas nas imagens se aplica para os aúdios.
+
+          NÃO UTILIZE O TIPO WAV, PESADISSÍMO.
+
+      Video
+
+        Tenha diversas tipos semelhante ao da Imagem e Vídeo
+
+        Compatibilidade ( Formatos )
+
+          mp4/m4v
+
+            Edge
+            Safari
+            Chrome
+
+          webm
+
+            Pequeno
+            Pessima qualidade
+
+            Firefox
+            Chrome
+            Opera
+
+          ogv
+
+            Não funciona no edge
+            Aceito em alguns navegadores 
+
+            Chrome
+            Firefox
+            Opera
+            
+        DICA:
+
+          Qualidade no máximo 1080p
+
+      Vídeo em hospedagem própria
+
+        Utilize os parâmetros:
+
+          width{
+            Para deixar a imagem menor, lembrando que não irá DIMUNIR O SEU TAMANHO VERDADEIRO.
+          }
+
+          poster{
+            Utilizado para criar as tambs do vídeo
+          }
+
+          control{
+            Para possibilitar o 'play' do vídeo
+          }
+
+          autoplay{
+            Executa automaticamente o video
+          }
+
+          No source:
+
+            src{
+              O local do vídeo
+            }
+
+            type{
+              video/extensão
+            }
+
+          Observação
+
+            Cuidado colocando diversos source, CERTAMENTE aumentará o custo do seu cliente.
+
+        Incorporação de vídeos externos
+
+          Video do youtube
+
+            Escolha o vídeo do seu interesse, siga os passos{
+              Clique em compartilhar{
+                Incorporar{
+                  Clique em 'copiar'
+                }
+              }
+              Volte no código html{
+                Clique em copiar, caso necessário altere o tamanho da imagem
+              }
+            }
+
+  CSS
+
+    As CSS's dão estilos as formas.
+
+    Formas:
+
+      Estilo Inline - Configurações pontuais
+
+        Dentro da tag incial do Body utilize o "style=background-color: 'Nome da cor desejada'"
+
+        Desvantagem
+
+          Mudança especifica em uma determinada tag.
+
+      Estilo Interno
+
+        Vantagem
+
+          Melhor organização em comparação ao Inline.
+
+        Desvantagem
+
+          alteração especifica em uma única página.
+
+      Estilo externo
+
+        Para chamar o código CSS no HTML, utiliza-se a tag "link:css", no parâmetro "'href='nomedaCSS'.css'".
+
+        IMPORTANTE:
+
+          Deve-se sempre utilizar no inicio do código o "'@charset UTF-8;'" para evitar incompatibilidade de acentuação.
+
+        Vantagem
+
+          Versatilidade na alteração de várias páginas ao mesmo tempo.
+
+Módulo 2
+
+  Psicologia das Cores
+
+    Emoção de cores
+
+      
+
+
+  Harmonização de Cores
+
+  Paleta de Cores
+
+  Tipografia
+
+  Anatomia do tipo
+
+  Familia tipografica
+
+  Integração Cor e Tipo
+

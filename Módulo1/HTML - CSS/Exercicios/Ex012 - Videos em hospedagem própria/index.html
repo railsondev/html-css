@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos com HTML5</title>
+</head>
+<body>
+  <h1>Inserindo videos</h1>
+  <p>Este vídeo está hospedado em meu próprio servidor.</p>
+  <video  width="100" poster="Imagens/Própria/Gato-g.png" controls autoplay loop>
+    <source src="Video/Próprio/Meu Video.webm" type="video/webm">
+    <source src="Video/Próprio/Meu video.ogv" type="video/ogg">
+    <source src="Video/Próprio/Meu video.mkv" type="video/mp4">
+    <source src="Video/Próprio/Meu video.mp4" type="video/mp4">
+    <p>Seu navegador não possui compatibilidade para executar os videos</p>
+    <a href="Video/Próprio/Meu video.mp4">Segue o link para realizar o download do video</a>
+  </video>
+  
+  <h1>Inserindo vídeos do youtube</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/c4IpGaE9mAc?si=ehbgDpbgx97HEZEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <h1>Inserindo vídeos do vimeo</h1>
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/997805490?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Lien"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
