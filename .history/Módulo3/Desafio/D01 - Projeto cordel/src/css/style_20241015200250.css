@@ -29,7 +29,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 section {
   padding-top: 10vh;
   padding-bottom: 10vh;
@@ -45,10 +44,8 @@ section.imagem {
   color: white;
 }
 section.imagem > p {
-  width: 400px;
-  background-color: rgba(0, 0, 0, 0.253);
+  width: ;
 } 
-
 footer {
   background-color: black;
   height: 40px;
