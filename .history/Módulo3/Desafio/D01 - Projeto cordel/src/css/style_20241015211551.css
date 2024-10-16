@@ -53,7 +53,7 @@ section {
   line-height: 2em;
   padding-left: 30px;
   font-family: var(--fonte3);
-  font-size: 4.5vw;
+  font-size: vw;
 }
 section.normal {
   background-color: white;
