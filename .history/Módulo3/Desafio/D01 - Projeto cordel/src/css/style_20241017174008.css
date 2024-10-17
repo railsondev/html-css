@@ -78,10 +78,11 @@ section.imagem > p {
 section#img01 {
   background-image: url(../imagens/joaninha.jpg);
   background-position: right center;
+  width: 100vw;
 }
 section#img02 {
   background-image: url(../imagens/papeis.jpg); 
-  background-position: right center;
+  width: 100vw;
 }
 
 footer {
