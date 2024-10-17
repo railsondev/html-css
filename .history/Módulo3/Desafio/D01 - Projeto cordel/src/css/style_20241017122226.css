@@ -67,7 +67,7 @@ section.imagem {
   color: white;
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
   background-size: cover;
-  background-attachment: fixed;
+  b
 }
 section.imagem > p {
   display: inline-block;
@@ -87,7 +87,7 @@ section#img02 {
 
 footer {
   background-color: black;
-  height: 30px;
+  height: 40px;
   text-align: center;
 }
 footer > p {
