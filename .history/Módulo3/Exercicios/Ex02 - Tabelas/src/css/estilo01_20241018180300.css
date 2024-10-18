@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+
+.porc::after {
+  content: ' %';
+}
+
+table {
+  border-collapse: collapse;
+}
+td, tr {
+  border: 1px solid black;
+  padding: 4px;
+}
