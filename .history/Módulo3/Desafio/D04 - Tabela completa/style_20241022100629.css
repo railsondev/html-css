@@ -22,9 +22,5 @@ td, th {
 }
 
 caption {
-  background-color: slategrey;
-  color: white;
   border: 1px solid black;
-  padding: 10px;
-  font-weight: bold;
 }

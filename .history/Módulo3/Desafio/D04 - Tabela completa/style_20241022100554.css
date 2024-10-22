@@ -10,7 +10,7 @@ table, thead, caption {
   width: 600px;
 }
 
-td, th {
+td, th, ca {
   border: 1px solid black;
   padding: 10px;
   text-align: center;
@@ -18,13 +18,5 @@ td, th {
 }
 
 .topico {
-  font-weight: bold;
-}
-
-caption {
-  background-color: slategrey;
-  color: white;
-  border: 1px solid black;
-  padding: 10px;
   font-weight: bold;
 }
