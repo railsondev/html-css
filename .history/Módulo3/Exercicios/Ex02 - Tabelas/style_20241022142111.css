@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+caption {
+  font-size: 1.3em;
+  font-weight: bolder;
+  padding: 8px;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+tr.destaque {
+  background-color: chartreuse;
+}
+
+col.cnome {
+  background-color: chartreuse;
+}
+col.cgrupo {
+  background-color: yellow;
+  
+}
