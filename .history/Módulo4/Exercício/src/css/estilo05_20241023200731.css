@@ -16,7 +16,7 @@ caption {
 
 th, td{
   border: 1px solid black;
-  padding: 2px 5px;
+  padding: 0px 5px;
 }
 
 tr:nth-child(even) {
